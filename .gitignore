@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/.pnp
+sanity-backend/node_modules
 .pnp.js
 
 # testing
@@ -18,6 +18,9 @@
 # misc
 .DS_Store
 *.pem
+.env
+.env.production
+.env.development
 
 # debug
 npm-debug.log*
